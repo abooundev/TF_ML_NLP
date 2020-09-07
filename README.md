@@ -141,5 +141,5 @@ Seq2Seq (Sequence to Sequence) 모델을 가지고 챗봇을 만들게 됩니다
 보다 좋은 성능으로 활용할 수 있는 챗봇 모델을 제공하기 위해 발전된 모델을 구현해 뒀습니다.
 
 - [Attention Based RNN Seq2Seq 모델](./Appendix)
+- [개선된 Transformer 기반 Seq2Seq 모델](./Appendix-transformer)
 
-- [개선된 Transformer 기반 Seq2Seq 모델](
