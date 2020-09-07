@@ -1,6 +1,8 @@
 from konlpy.tag import Okt
 import pandas as pd
-import tensorflow as tf
+#import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 import enum
 import os
 import re
@@ -203,6 +205,7 @@ def load_vocabulary():
     vocabulary_list = []
     # 사전 파일의 존재 유무를 확인한다.
     if (not (os.path.exists(DEFINES.vocabulary_path))):
+        print("-----------------> no vocabulary")
         if (os.path.exists(DEFINES.data_path)):
             data_df = pd.read_csv(DEFINES.data_path, encoding='utf-8')
             question, answer = list(data_df['Q']), list(data_df['A'])
@@ -223,7 +226,10 @@ def load_vocabulary():
             # END = "<END>"
             # UNK = "<UNKNOWN>"     
             words[:0] = MARKER
+
+        print("-----------------> words:", len(words))
         # 사전 리스트를 사전 파일로 만들어 넣는다.
+        print("-----------------> DEFINES.vocabulary_path:", DEFINES.vocabulary_path)
         with open(DEFINES.vocabulary_path, 'w', encoding='utf-8') as vocabulary_file:
             for word in words:
                 vocabulary_file.write(word + '\n')

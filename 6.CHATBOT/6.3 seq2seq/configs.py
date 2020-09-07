@@ -1,5 +1,7 @@
 #-*- coding: utf-8 -*-
-import tensorflow as tf
+#import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 tf.app.flags.DEFINE_string('f', '', 'kernel') # 주피터에서 커널에 전달하기 위한 프레그 방법
 tf.app.flags.DEFINE_integer('batch_size', 64, 'batch size') # 배치 크기
