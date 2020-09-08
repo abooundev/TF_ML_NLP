@@ -1,4 +1,5 @@
 # TF_ML_NLP
+텐서플로와 머신러닝으로 시작하는 자연어 처리
 
 # 1. Introduction
 
@@ -12,21 +13,21 @@
 
 - 텐서플로(Tensorflow)
 
-  - [tf.keras.layers](./2.1.1.tf.keras.layers.ipynb)
+  - [2.1.1.tf.keras.layers](./2.1.1.tf.keras.layers.ipynb)
 
-  - [tf.data](./2.1.2%20tf.data.ipynb)
+  - [2.1.2.tf.data](./2.1.2%20tf.data.ipynb)
 
-  - [tf.estimator](./2.1.3.estimator.ipynb)
+  - [2.1.3.tf.estimator](./2.1.3.estimator.ipynb)
 
-- [사이킷-런(Sklearn)](./2.2.sklearn.ipynb)
+- [2.2.사이킷-런(Sklearn)](./2.2.sklearn.ipynb)
 
-- [넘파이(Numpy)](./2.4.1.numpy.ipynb)
+- [2.4.1.넘파이(Numpy)](./2.4.1.numpy.ipynb)
 
-- [판다스(Pandas)](./2.4.2.pandas.ipynb)
+- [2.4.2.판다스(Pandas)](./2.4.2.pandas.ipynb)
 
-- [맷플롯립(Matplotlib)](./2.4.3.matplotlib.ipynb)
+- [2.4.3.맷플롯립(Matplotlib)](./2.4.3.matplotlib.ipynb)
 
-- [정규표현식 및 BeautifulSoup(Re & BeautifulSoup)](./2.4.4&5.re_and_beautiful_soup.ipynb)
+- [2.4.4&5.정규표현식 및 BeautifulSoup(Re & BeautifulSoup)](./2.4.4&5.re_and_beautiful_soup.ipynb)
 
 
 
@@ -34,8 +35,8 @@
 
 자연어 처리에 대한 개념들을 설명합니다.
 
-- [텍스트 유사도](https://github.com/abooundev/TF_ML_NLP/blob/master/3.NLP_INTRO/3.3_텍스트_유사도.ipynb)
-- [탐색적 데이터 분석(EDA)](https://github.com/abooundev/TF_ML_NLP/blob/master/3.NLP_INTRO/3.6 EDA.ipynb)
+- [3.3.텍스트 유사도](https://github.com/abooundev/TF_ML_NLP/blob/master/3.NLP_INTRO/3.3_텍스트_유사도.ipynb)
+- [3.6.탐색적 데이터 분석(EDA)](https://github.com/abooundev/TF_ML_NLP/blob/master/3.NLP_INTRO/3.6 EDA.ipynb)
 
 
 
@@ -53,17 +54,17 @@
 
 #### 실습 내용
 
-- [데이터 EDA 및 전처리](./4.1.2.EDA&preprocessing.ipynb)
+- [4.1.2.데이터 EDA 및 전처리](./4.1.2.EDA&preprocessing.ipynb)
 
-- [TF-IDF를 활용한 선형회귀모델](./4.1.4%20Linear%20Regression%20with%20TF-IDF.ipynb)
+- [4.2.4.TF-IDF를 활용한 선형회귀모델](./4.1.4%20Linear%20Regression%20with%20TF-IDF.ipynb)
 
-- [Word2Vec을 활용한 선형회귀모델](./4.1.4%20Linear%20Regression%20with%20Word2Vec.ipynb)
+- [4.1.4.Word2Vec을 활용한 선형회귀모델](./4.1.4%20Linear%20Regression%20with%20Word2Vec.ipynb)
 
-- [Random Forest 모델](./4.1.5%20Random%20Forest.ipynb)
+- [4.1.5.Random Forest 모델](./4.1.5%20Random%20Forest.ipynb)
 
-- [RNN 모델](./4.1.6%20RNN%20Classification.ipynb)
+- [4.1.6.RNN 모델](./4.1.6%20RNN%20Classification.ipynb)
 
-- [CNN 모델](./4.1.7.CNN_Classification.ipynb)
+- [4.1.7.CNN 모델](./4.1.7.CNN_Classification.ipynb)
 
 
 ### 한글 데이터
@@ -72,9 +73,9 @@
 
 #### 실습 내용
 
-- [데이터 EDA 및 전처리](./4.2.2.EDA&preprocessing.ipynb)
+- [4.2.2.데이터 EDA 및 전처리](./4.2.2.EDA&preprocessing.ipynb)
 
-- [모델링](./4.2.3.Korea%20Sentiment%20Modeling.ipynb)
+- [4.2.3.모델링](./4.2.3.Korea%20Sentiment%20Modeling.ipynb)
 
 
 
@@ -90,13 +91,13 @@
 
 ### 실습 내용
 
-- [데이터 EDA 및 전처리](./5.2.EDA&preprocessing.ipynb)
+- [5.2.데이터 EDA 및 전처리](./5.2.EDA&preprocessing.ipynb)
 
-- [XG 부스팅을 활용한 유사도 모델](./5.3.1.XGboost.ipynb)
+- [5.3.1.XG 부스팅을 활용한 유사도 모델](./5.3.1.XGboost.ipynb)
 
-- [CNN을 활용한 유사도 모델](./5.3.2.Quora_CNN.ipynb)
+- [5.3.2.CNN을 활용한 유사도 모델](./5.3.2.Quora_CNN.ipynb)
 
-- [MaLSTM을 활용한 유사도 모델](./5.3.3_Quora_LSTM.ipynb)
+- [5.3.3.MaLSTM을 활용한 유사도 모델](./5.3.3_Quora_LSTM.ipynb)
 
 ## 부록
 
