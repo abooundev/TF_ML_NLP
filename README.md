@@ -126,15 +126,15 @@ Seq2Seq (Sequence to Sequence) 모델을 가지고 챗봇을 만들게 됩니다
 
 데이터셋에 대한 분석은 다음 페이지에서 확인할 수 있습니다.
 
-- [챗봇 데이터 EDA](./6.2.EDA.ipynb)
+- [6.2.챗봇 데이터 EDA](./6.2.EDA.ipynb)
 
 
 
 ## 챗봇 모델
 
-- [RNN 기반의 Seq2Seq 모델](./6.3%20seq2seq)
+- [6.3.RNN 기반의 Seq2Seq 모델](./6.3%20seq2seq)
 
-- [Transformer 기반의 Seq2Seq 모델](./6.4%20transformer)
+- [6.4.Transformer 기반의 Seq2Seq 모델](./6.4%20transformer)
 
 
 ## 부록
